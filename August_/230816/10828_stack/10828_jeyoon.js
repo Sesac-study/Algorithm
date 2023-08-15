@@ -1,4 +1,4 @@
-// 10828 풀이
+// 10828 풀
 const fs = require('fs');
 const array = fs.readFileSync('./ex1.txt').toString().trim().split("\n");
 
