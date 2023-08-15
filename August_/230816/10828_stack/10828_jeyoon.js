@@ -1,3 +1,4 @@
+// 10828 풀이
 const fs = require('fs');
 const array = fs.readFileSync('./ex1.txt').toString().trim().split("\n");
 
@@ -14,7 +15,6 @@ for(let i = 0; i < len ; i++){
             result.push(stack.pop() || -1);
             console.log('pop');
             break;
-
         case 'size':
             // size: 스택에 들어있는 정수의 개수를 출력한다.
             result.push(stack.length);
